@@ -8,8 +8,13 @@ def get_card(players):
     random_card = deck[random.randint(0, 13)]
     return players.append(random_card)
 
-def compute_card():
 
 
+def compute_card(player):
+    total = sum(user_cards)
+    return total
 
-print(f"Your cards: [{user_card_one}, {user_card_two}]")
+game_continue = True
+
+while game_continue:
+    print(f"Your cards: {for}")
